@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    margin: 30px;
+    outline: 1px solid red;
+    width: 600px;
+    height: 300px;
+
+}
+
+.box{
+    width: 200px;
+    height: 150px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 150px;
+    font-size: 1.5rem;
+    transition: all 1s linear;
+}
+
+
+.container:hover .box{
+/* transform: rotate(360deg) translate(300px,  150px) translate(-50%, -50%); */
+
+    /* transform: scale(1.2); */
+
+    /* transform: skew(15deg, 40deg); */
+
+
+    
+
+
+
+
+}

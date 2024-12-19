@@ -1,0 +1,54 @@
+.home-btn{
+    position: fixed;
+    bottom: 20px ;
+    right: 40px;
+    background-color: cornflowerblue;
+    color: white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 5);
+
+}
+
+
+.home-btn a{
+    color: white;
+   
+}
+
+
+nav img{
+    width: 40px;
+    height: 40px;
+    transition: all 0,2s linear;
+
+}
+
+nav img:hover{
+    transform: scale(1.51);
+
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+ul li::before{
+    content: 	"\2714" ;
+    color: brown;
+    font: size 24px; ;
+    font-weight:bold ;
+    padding-right: 20px;
+    cursor: pointer;
+    
+}
+
+
+
+ul li:hover::before{
+    content: "\2718";
+}

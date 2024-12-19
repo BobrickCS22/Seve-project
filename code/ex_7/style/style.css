@@ -1,0 +1,32 @@
+.conteiner{
+    margin: 30px;
+    width: 600px;
+    height: 400px;
+    /* transform: rotateX(36deg); */
+
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 16px solid #d3d3d3;
+    border-top-color:lime;
+    border-top-color:#0066ff;
+    border-radius: 50%;
+    
+    animation: rotate-loader  2.10s linear infinite;
+    transform: rotateX(36deg);
+       
+}
+
+
+
+@keyframes rotate-loader{
+    from{
+        transform: rotate(0deg );
+    }
+    to{
+        transform: rotate(360deg );
+    }
+}

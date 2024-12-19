@@ -1,0 +1,14 @@
+ol{
+    margin-left: 50px;
+    list-style-type: decimal;
+    list-style-type: upper-roman;
+    list-style-type: disc;
+    list-style-type: none;
+}
+
+
+ol li::before{
+    content: "\21D2";
+    padding-right: 10px;
+
+}

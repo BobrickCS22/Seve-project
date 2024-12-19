@@ -1,0 +1,23 @@
+ur li{
+    list-style-type: circle;
+    color: blue;
+}
+
+ul li{
+    list-style-type: square;
+    color: red;
+}
+
+ol li ol{
+    list-style-type:decimal;
+    color: green;
+
+
+
+}
+
+
+ul li ol li ul{
+    list-style-type: decimal;
+
+}

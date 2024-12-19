@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.conteiner{
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    position: relative;
+    transition: all 0.5s linear;
+    perspective: 1000px;
+
+}
+
+
+.box{
+    width: 200px;
+    height: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s linear;
+    transform-origin: 100% 50%;
+    
+
+}
+
+
+
+
+
+
+
+
+.conteiner:hover .box{
+    transform:rotateY(-60deg) ;
+
+}

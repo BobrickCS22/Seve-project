@@ -1,0 +1,38 @@
+
+span{
+    width: 300px;
+    height: 300px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.danger{
+    padding: 20px;
+    border-left: 7px solid;
+    border-left-color: #ea483a;
+    background-color: #ffddde;
+}
+
+.success{
+    margin-top: 20px;
+    padding: 20px;
+    border-left: 7px solid;
+    border-left-color: #04a96d;
+    background-color: #deffdd;
+}
+
+.info{
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 7px solid;
+    border-left-color: #2e93e1;
+    background-color: #e7f3ff;
+}
+
+.Warning{
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 7px solid;
+    border-left-color: #fbeb53;
+    background-color: #ffffcd;
+}

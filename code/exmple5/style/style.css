@@ -1,0 +1,29 @@
+ul.Main-list{
+    list-style:square inside url("../images/arrow_16.png");
+    list-style-type: square;
+    list-style-image: url("../images/arrow_16.png");
+}
+
+
+
+ul.Main-list{
+    list-style-image: url("../images/arrow_16.png");
+}
+
+ul.sub-list-wint{
+    list-style-image: url("../images/winter_16.png");
+}
+ul.sub-list-spr{
+    list-style-image: url("../images/spring_16.png");
+}
+ul.sub-list-sum{
+    list-style-image: url(../images/summer_16.png);
+}
+ul.sub-list-aut{
+    list-style-image: url(../images/autumn_16.png);
+}
+
+
+
+
+
